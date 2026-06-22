@@ -1,5 +1,5 @@
 {
-  "name": "byedeep.me",
+  "name": "bdeep.xyz",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -12,5 +12,12 @@
     "@tailwindcss/vite": "^4.1.18",
     "astro": "^5.17.1",
     "tailwindcss": "^4.1.18"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
   }
 }
